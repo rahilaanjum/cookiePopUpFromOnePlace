@@ -4,7 +4,7 @@ $(document).ready(function() {
     {
         let searchQuery = locationPath.split("?")[1];
         let searchValue = searchQuery.split("=")[1];
-        let htmlText = "<div><span>Hello world!</span><a href='https://documentation.infineon.com/html/psoc6/search.html?searchQuery="+searchValue+"' traget='_blank'>Click Here to Redirect to Infinoen Community</a></div>";
+        let htmlText = "<div><span>Hello world!</span><a href='https://community.infineon.com/t5/custom/page/page-id/GlobalSearch#q="+searchValue+"&t=All&sort=relevancy' traget='_blank'>Click Here to Redirect to Infinoen Community</a></div>";
         $(htmlText).insertBefore("footer");
     }
 });
