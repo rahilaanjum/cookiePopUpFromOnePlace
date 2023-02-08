@@ -1,0 +1,170 @@
+/*
+ * ------------------------------------------------------------------
+ *
+ * Search area before footer block
+ *
+ */
+.wh_no_result_3 {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 66px;
+    /* identical to box height, or 129% */
+    
+    /* Color/Black */
+    color: #1D1D1D;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+   
+}
+.wh_no_result_4{
+    
+/* H6 - 18pt */
+font-family: 'Source Sans Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 57px;
+/* identical to box height, or 156% */
+
+/* Color/Black */
+color: #1D1D1D;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.wh_no_result_5{
+    
+    /* Body 4 - 14pt */
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    /* identical to box height, or 143% */
+    
+    /* Color/Gray/500 */
+    color: #7D6F72;
+    
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    }
+    
+
+.wh_no_result_button{
+/* Parent / Button */
+
+border-color: #0A8276;
+border-radius: 5%;
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 16px;
+gap: 8px;
+
+width: 168px;
+height: 40px;
+
+/* Color/Brand/500
+
+Ocean
+*/
+background: #0A8276;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.wh_no_result_button_lable{
+    /* Label */
+
+
+width: 136px;
+height: 20px;
+
+/* Body/Body 4 Semibold */
+
+font-family: 'Source Sans 3';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+/* Color/White */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.wh_no_result_button_link{
+
+    
+    
+    display: none;
+    width: 16px;
+    height: 16px;
+
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+
+
+}
+a:link, a:visited {
+    color: #FFFFFF;
+    cursor: auto;
+  }
+.searchbutton{
+    
+
+    
+    display: none;
+    width: 16px;
+    height: 16px;
+
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    
+
+
+
+} 
