@@ -16,6 +16,7 @@ window.onload = function() {
         fileref.setAttribute("rel", "stylesheet")
         fileref.setAttribute("type", "text/css")
         fileref.setAttribute("href", "https://kumar-tallapalli.github.io/cookiePopUpFromOnePlace/show_community_after_search.css")
+        document.getElementsByTagName("head")[0].appendChild(fileref)
     }
 }
 
