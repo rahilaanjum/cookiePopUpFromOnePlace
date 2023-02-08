@@ -7,16 +7,17 @@ window.onload = function() {
         let searchQuery = locationPath.split("?")[1];
         let searchValue = searchQuery.split("=")[1];
         let htmlText = searchNoResultsDiv(searchValue);
-        
-        //$(htmlText).insertBefore("footer");
-        //$(htmlText).insertAfter("wh-search-pagination");
         var resultsDomObj = document.getElementById("results");
         resultsDomObj.innerHTML += htmlText;
+        
+        /*
+        Css file loading dynamically
         var fileref=document.createElement("link")
         fileref.setAttribute("rel", "stylesheet")
         fileref.setAttribute("type", "text/css")
         fileref.setAttribute("href", "https://kumar-tallapalli.github.io/cookiePopUpFromOnePlace/show_community_after_search.css")
         document.getElementsByTagName("head")[0].appendChild(fileref)
+        */
     }
 }
 
