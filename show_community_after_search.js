@@ -12,6 +12,10 @@ window.onload = function() {
         //$(htmlText).insertAfter("wh-search-pagination");
         var resultsDomObj = document.getElementById("results");
         resultsDomObj.innerHTML += htmlText;
+        var fileref=document.createElement("link")
+        fileref.setAttribute("rel", "stylesheet")
+        fileref.setAttribute("type", "text/css")
+        fileref.setAttribute("href", "https://kumar-tallapalli.github.io/cookiePopUpFromOnePlace/show_community_after_search.css")
     }
 }
 
