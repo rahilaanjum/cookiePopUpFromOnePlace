@@ -1,4 +1,4 @@
-$(document).ready(function() {
+window.onload = function() {
 //Header content append.
 
     let locationPath = window.location.href;
@@ -10,9 +10,10 @@ $(document).ready(function() {
         
         //$(htmlText).insertBefore("footer");
         //$(htmlText).insertAfter("wh-search-pagination");
-        $("#results").append($(htmlText));
+        var resultsDomObj = document.getElementById("results");
+        resultsDomObj.innerHTML += htmlText;
     }
-});
+}
 
 function searchNoResultsDiv(searchQuery) {
       
