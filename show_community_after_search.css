@@ -105,3 +105,13 @@
   gap: 24px;
   isolation: isolate;
 }
+
+ .community-icon {
+    height: 90px;
+    width: 24px;
+    left: 1030px;
+    top: -7px;
+    border-radius: 0px;
+    color: black;
+    font-size: 17px;
+   }
