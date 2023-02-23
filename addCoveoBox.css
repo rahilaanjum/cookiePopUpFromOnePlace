@@ -1,0 +1,16 @@
+   coveo-in-app-widget-loader::part(button) {
+     width: 200px;
+     background-image: linear-gradient(#0a8276, #0a8276);
+     justify-content: flex-start;
+   }
+   coveo-in-app-widget-loader::part(button):before {
+     background-image: linear-gradient(#0a8276, #0a8276);
+   }
+    coveo-in-app-widget-loader::part(button):hover:before {
+      background-image: linear-gradient(#0a8276, #0a8276);
+    }
+    coveo-in-app-widget-loader::part(button-text) {
+      color: #fff;
+      background-image: linear-gradient(#0a8276, #0a8276);
+      overflow: initial;
+    }
