@@ -14,12 +14,12 @@ window.onload = function() {
         let htmlText = searchNoResultsDiv(searchValue);
         var resultsDomObj = document.getElementById("results");
         resultsDomObj.innerHTML += htmlText;
+        var link = document.querySelector('.foundResult');
+        link.href = link.href + '+q=foo';
         
-         $(".foundResult").attr('href', function(index, oldHref) {
+        /*$(".foundResult").attr('href', function(index, oldHref) {
         return oldHref + '?param=value'; // append query string to the original href
       });
-        
-        /*
         Css file loading dynamically
         var fileref=document.createElement("link")
         fileref.setAttribute("rel", "stylesheet")
