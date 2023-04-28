@@ -15,6 +15,10 @@ window.onload = function() {
         var resultsDomObj = document.getElementById("results");
         resultsDomObj.innerHTML += htmlText;
         
+         $(".foundResult").attr('href', function(index, oldHref) {
+        return oldHref + '?param=value'; // append query string to the original href
+      });
+        
         /*
         Css file loading dynamically
         var fileref=document.createElement("link")
