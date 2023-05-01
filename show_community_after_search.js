@@ -15,7 +15,7 @@ window.onload = function() {
         var resultsDomObj = document.getElementById("results");
         resultsDomObj.innerHTML += htmlText;
         var link = document.querySelector('.foundResult');
-        link.href = link.href + '+q=foo';
+        link.href = link.href + '&dd-bookname=dd-psoc6';
         
         /*$(".foundResult").attr('href', function(index, oldHref) {
         return oldHref + '?param=value'; // append query string to the original href
